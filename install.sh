@@ -10,6 +10,8 @@ NODE_EXPORTER_VERSION="1.0.1"
 
 printf "Node Exporter Version: %s\n\n" "$NODE_EXPORTER_VERSION"
 
+printf "Starting...\n\n"
+
 WIP="/opt/wip"
 
 mkdir -p $WIP
@@ -66,4 +68,6 @@ systemctl start prometheus
 
 cd ~
 
-# rm -rf $WIP
+rm -rf $WIP
+
+printf "Finished!!\n"
