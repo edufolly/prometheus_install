@@ -2,7 +2,7 @@
 
 set -e
 
-PROMETHEUS_VERSION="2.20.0"
+PROMETHEUS_VERSION="2.23.0"
 
 printf "Prometheus Version: %s\n\n" "$PROMETHEUS_VERSION"
 
