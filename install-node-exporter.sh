@@ -38,4 +38,8 @@ cd ~
 
 rm -rf $WIP
 
-printf "Finished!!\n"
+printf "\n\n"
+
+node_exporter --version
+
+printf "\n\nFinished!!\n"

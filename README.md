@@ -5,7 +5,7 @@
 ### PROMETHEUS 2.49.1
 
 ```shell
-curl -fsSL https://raw.githubusercontent.com/edufolly/prometheus_install/master/install-prometheus.sh | bash
+curl -fsSL https://raw.githubusercontent.com/edufolly/prometheus_install/main/install-prometheus.sh | bash
 ```
 
 ## Script to install Node Exporter
@@ -13,5 +13,5 @@ curl -fsSL https://raw.githubusercontent.com/edufolly/prometheus_install/master/
 ### NODE EXPORTER 1.7.0
 
 ```shell
-curl -fsSL https://raw.githubusercontent.com/edufolly/prometheus_install/master/install-node-exporter.sh | bash`
+curl -fsSL https://raw.githubusercontent.com/edufolly/prometheus_install/main/install-node-exporter.sh | bash
 ```
