@@ -1,8 +1,17 @@
 # Prometheus Install
 
-PROMETHEUS 2.23.0
+## Script to install Prometheus
 
-NODE EXPORTER 1.0.1
-## Script to install Prometheus on Ubuntu 18.04
+### PROMETHEUS 2.49.1
 
-`# curl -fsSL https://raw.githubusercontent.com/edufolly/prometheus_install/master/install.sh | bash`
+```shell
+curl -fsSL https://raw.githubusercontent.com/edufolly/prometheus_install/master/install-prometheus.sh | bash
+```
+
+## Script to install Node Exporter
+
+### NODE EXPORTER 1.7.0
+
+```shell
+curl -fsSL https://raw.githubusercontent.com/edufolly/prometheus_install/master/install-node-exporter.sh | bash`
+```
